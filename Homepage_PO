@@ -1,0 +1,5 @@
+public static WebDriver driver;
+String baseURL = "http://172.16.101.113:8080/BrowserWeb/servlet/BrowserServlet";
+WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get(baseURL);
